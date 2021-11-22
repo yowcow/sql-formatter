@@ -320,7 +320,7 @@ export default class MySqlFormatter extends Formatter {
       openParens: ['(', 'CASE'],
       closeParens: [')', 'END'],
       indexedPlaceholderTypes: ['?'],
-      namedPlaceholderTypes: [],
+      namedPlaceholderTypes: [':'],
       lineCommentTypes: ['--', '#'],
       specialWordChars: ['@'],
       operators: [':=', '<<', '>>', '!=', '<>', '<=>', '&&', '||', '->', '->>'],
